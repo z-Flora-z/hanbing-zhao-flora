@@ -222,13 +222,13 @@ const translations = {
     roles: [
       {
         date: "2026年2月 - 至今",
-        location: "密苏里州开普吉拉多市",
+        location: "开普吉拉多市，密苏里州",
         title: "FP&A 专员",
         body: "在 SAP 中执行每周和每月成本结账，准备成本表、P&L 报告、毛利分析和实际与预测差异分析；同时与生产、质量、维修和仓储团队合作，提升产品成本核算准确性和管理报告可靠性。",
       },
       {
         date: "2025年5月 - 2025年8月",
-        location: "密苏里州堪萨斯城",
+        location: "堪萨斯城，密苏里州",
         title: "运营与财务分析实习生",
         body: "建立基于驱动因素的预测模型，预测 E&S Property 运营业务量；分析美国和加拿大业务单元的采用率与使用情况，并基于多个报告来源分析 SOP 更新工作流。",
       },
@@ -266,7 +266,7 @@ const translations = {
     education: [
       {
         date: "2024年8月 - 2025年12月",
-        location: "密苏里州圣路易斯市",
+        location: "圣路易斯市，密苏里州",
         school: "圣路易斯华盛顿大学 Olin 商学院",
         degree: "商业分析硕士 - 金融科技方向",
         detail: "GPA: 3.82 / 4.00 | Beta Gamma Sigma | Charles F. Knight Scholar",
