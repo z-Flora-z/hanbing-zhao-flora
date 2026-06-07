@@ -279,7 +279,7 @@ h3 {
 
 .project {
   display: grid;
-  grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1fr) auto;
+  grid-template-columns: 340px minmax(0, 1fr) 440px;
   gap: 28px;
   align-items: center;
   padding: 24px;
@@ -289,15 +289,15 @@ h3 {
 }
 
 .impact {
-  justify-self: end;
-  padding: 8px 12px;
+  justify-self: stretch;
+  text-align: center;
+  padding: 8px 14px;
   color: var(--teal-dark);
   background: #e8ecf1;
   border: 1px solid #cfd8e2;
   border-radius: 999px;
   font-size: 0.86rem;
   font-weight: 800;
-  white-space: nowrap;
 }
 
 .split-section {

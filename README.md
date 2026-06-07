@@ -2,22 +2,26 @@
 
 This is a static personal portfolio site for job applications.
 
-Suggested GitHub repository name:
+## Live Site
 
 ```text
-hanbing-zhao-flora
+https://z-flora-z.github.io/hanbing-zhao-flora/
 ```
 
-If published with GitHub Pages from a repository named `hanbing-zhao-flora`, the site URL will usually be:
+## GitHub Repository
 
 ```text
-https://<your-github-username>.github.io/hanbing-zhao-flora/
+https://github.com/z-Flora-z/hanbing-zhao-flora
 ```
 
-If you create a GitHub user site repository named `<your-github-username>.github.io`, the site URL will be cleaner:
+## Update Workflow
+
+After editing files, upload the changed files to the GitHub repository and commit them to the `main` branch. GitHub Pages will update automatically, usually within 1-2 minutes.
+
+If the live site does not update immediately, try a hard refresh:
 
 ```text
-https://<your-github-username>.github.io/
+Command + Shift + R
 ```
 
 ## Preview
@@ -46,4 +50,4 @@ http://127.0.0.1:8017/
 ## Suggested Next Edits
 
 - Replace or add project screenshots if you have real dashboard examples.
-- Deploy with GitHub Pages, Netlify, or Vercel.
+- Continue refining layout, color, and project storytelling.
