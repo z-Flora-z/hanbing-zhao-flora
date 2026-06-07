@@ -17,14 +17,17 @@ window.addEventListener("scroll", updateHeader, { passive: true });
 updateHeader();
 
 const openContactModal = () => {
-  contactModal?.classList.add("is-open");
-  contactModal?.setAttribute("aria-hidden", "false");
   copyStatus.textContent = "";
+
+  if (contactModal?.showModal && !contactModal.open) {
+    contactModal.showModal();
+  }
 };
 
 const closeContactModal = () => {
-  contactModal?.classList.remove("is-open");
-  contactModal?.setAttribute("aria-hidden", "true");
+  if (contactModal?.open) {
+    contactModal.close();
+  }
 };
 
 contactOpenButtons.forEach((button) => {
@@ -36,7 +39,13 @@ contactCloseButtons.forEach((button) => {
 });
 
 window.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && contactModal?.classList.contains("is-open")) {
+  if (event.key === "Escape" && contactModal?.open) {
+    closeContactModal();
+  }
+});
+
+contactModal?.addEventListener("click", (event) => {
+  if (event.target === contactModal) {
     closeContactModal();
   }
 });
