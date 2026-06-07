@@ -88,6 +88,26 @@ footer a:hover {
   color: var(--teal);
 }
 
+.language-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 760;
+}
+
+.language-control select {
+  min-height: 36px;
+  padding: 6px 30px 6px 10px;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(300px, 0.8fr);
@@ -615,6 +635,11 @@ footer p {
     justify-content: space-between;
     gap: 10px;
     font-size: 0.88rem;
+  }
+
+  .language-control {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .hero {
