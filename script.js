@@ -158,13 +158,13 @@ const translations = {
     backToTop: "Back to top",
   },
   zh: {
-    documentTitle: "赵寒冰（Flora）| FP&A 与财务分析",
+    documentTitle: "赵浛冰（Flora）| FP&A 与财务分析",
     metaDescription:
-      "赵寒冰（Flora）的个人主页，展示 FP&A、预算预测、盈利能力分析、财务报告和流程自动化相关经历。",
+      "赵浛冰（Flora）的个人主页，展示 FP&A、预算预测、盈利能力分析、财务报告和流程自动化相关经历。",
     languageLabel: "语言",
     languageEnglish: "英文",
     languageChinese: "中文",
-    brand: "赵寒冰",
+    brand: "赵浛冰",
     nav: ["职业路径", "工作经历", "技能", "联系"],
     heroEyebrow: "FP&A 专员 | 财务与商业分析",
     heroTitle: "将财务数据转化为更清晰的规划、盈利分析和业务决策。",
@@ -222,13 +222,13 @@ const translations = {
     roles: [
       {
         date: "2026年2月 - 至今",
-        location: "Cape Girardeau, MO",
+        location: "密苏里州开普吉拉多市",
         title: "FP&A 专员",
         body: "在 SAP 中执行每周和每月成本结账，准备成本表、P&L 报告、毛利分析和实际与预测差异分析；同时与生产、质量、维修和仓储团队合作，提升产品成本核算准确性和管理报告可靠性。",
       },
       {
         date: "2025年5月 - 2025年8月",
-        location: "Kansas City, MO",
+        location: "密苏里州堪萨斯城",
         title: "运营与财务分析实习生",
         body: "建立基于驱动因素的预测模型，预测 E&S Property 运营业务量；分析美国和加拿大业务单元的采用率与使用情况，并基于多个报告来源分析 SOP 更新工作流。",
       },
@@ -266,8 +266,8 @@ const translations = {
     education: [
       {
         date: "2024年8月 - 2025年12月",
-        location: "St. Louis, MO",
-        school: "Washington University in St. Louis, Olin Business School",
+        location: "密苏里州圣路易斯市",
+        school: "圣路易斯华盛顿大学 Olin 商学院",
         degree: "商业分析硕士 - 金融科技方向",
         detail: "GPA: 3.82 / 4.00 | Beta Gamma Sigma | Charles F. Knight Scholar",
       },
@@ -287,7 +287,7 @@ const translations = {
     contactLabelPhone: "电话",
     copy: "复制",
     copied: "已复制到剪贴板。",
-    footerName: "赵寒冰（Flora）",
+    footerName: "赵浛冰（Flora）",
     backToTop: "回到顶部",
   },
 };
