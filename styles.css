@@ -279,18 +279,31 @@ h3 {
 
 .project {
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr) 440px;
-  gap: 28px;
-  align-items: center;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 10px 28px;
+  align-items: start;
   padding: 24px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
 }
 
+.project > div {
+  grid-row: 1 / span 2;
+}
+
+.project > p {
+  margin: 0;
+  max-width: 760px;
+}
+
 .impact {
-  justify-self: stretch;
+  grid-column: 2;
+  justify-self: start;
+  width: fit-content;
+  max-width: 100%;
   text-align: center;
+  margin-top: 4px;
   padding: 8px 14px;
   color: var(--teal-dark);
   background: #e8ecf1;
@@ -476,7 +489,10 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .project > div,
   .impact {
+    grid-column: auto;
+    grid-row: auto;
     justify-self: start;
   }
 
