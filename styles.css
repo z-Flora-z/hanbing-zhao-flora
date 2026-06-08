@@ -295,6 +295,10 @@ h3 {
   margin-bottom: 28px;
 }
 
+#work .section-heading {
+  max-width: 1280px;
+}
+
 .project-list {
   display: grid;
   gap: 14px;
@@ -302,17 +306,13 @@ h3 {
 
 .project {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
-  gap: 10px 28px;
-  align-items: start;
+  grid-template-columns: minmax(260px, 0.26fr) minmax(360px, 1fr) minmax(260px, auto);
+  gap: 24px;
+  align-items: center;
   padding: 24px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: 8px;
-}
-
-.project > div {
-  grid-row: 1 / span 2;
 }
 
 .project > p {
@@ -321,12 +321,11 @@ h3 {
 }
 
 .impact {
-  grid-column: 2;
-  justify-self: start;
+  grid-column: 3;
+  justify-self: end;
   width: fit-content;
   max-width: 100%;
   text-align: center;
-  margin-top: 4px;
   padding: 8px 14px;
   color: var(--teal-dark);
   background: #e8ecf1;
@@ -334,6 +333,7 @@ h3 {
   border-radius: 999px;
   font-size: 0.86rem;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .split-section {
@@ -616,8 +616,11 @@ footer p {
   .project > div,
   .impact {
     grid-column: auto;
-    grid-row: auto;
     justify-self: start;
+  }
+
+  .impact {
+    white-space: normal;
   }
 
   .sticky-heading {
