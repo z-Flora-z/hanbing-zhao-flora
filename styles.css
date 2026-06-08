@@ -391,6 +391,10 @@ h3 {
   background: var(--white);
 }
 
+.skills-section .section-heading {
+  max-width: 1120px;
+}
+
 .skills-grid,
 .education-grid {
   display: grid;

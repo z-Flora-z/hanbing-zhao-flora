@@ -167,14 +167,14 @@ const translations = {
     brand: "赵浛冰",
     nav: ["职业路径", "工作经历", "技能", "联系"],
     heroEyebrow: "FP&A 专员 | 财务与商业分析",
-    heroTitle: "将财务数据转化为更清晰的规划、盈利分析和业务决策。",
+    heroTitle: "将财务数据转化为更清晰的规划、盈利分析和业务决策",
     heroSummary:
       "我结合 FP&A、盈利能力分析和报表自动化，提升财务可见度，追踪业务驱动因素，并支持运营和战略决策。",
     previewResume: "预览简历",
     linkedin: "领英",
     contactMe: "联系我",
     aboutKicker: "关于我",
-    aboutTitle: "把财务、分析和业务背景放在同一个经营视角中。",
+    aboutTitle: "把财务、分析和业务背景放在同一个经营视角中",
     aboutBody:
       "我是一名 FP&A 专业人士，拥有制造业、金融服务和审计相关经验。我的工作重点包括预算、预测、财务报告、差异分析、盈利能力分析、ERP 报表和流程自动化。",
     strengths: [
@@ -216,7 +216,7 @@ const translations = {
       },
     ],
     experienceKicker: "工作经历",
-    experienceTitle: "从成本结账和财务报告，到更好的管理决策。",
+    experienceTitle: "从成本结账和财务报告，到更好的管理决策",
     experienceBody:
       "我的经历涵盖制造业 FP&A、运营财务和审计，让我能够理解财务数据如何流经结账、报告、分析、控制和规划流程。",
     roles: [
@@ -240,7 +240,7 @@ const translations = {
       },
     ],
     skillsKicker: "技能",
-    skillsTitle: "让我把财务工作做得更清晰、更可靠的工具和能力。",
+    skillsTitle: "让我把财务工作做得更清晰、更可靠的工具和能力",
     skillHeadings: ["财务与会计", "数据与分析", "业务改进"],
     skillTags: [
       ["财务结账", "财务报告", "差异分析", "预算预测", "账户调节", "P&L 报告", "毛利分析", "盈利能力分析"],
@@ -262,7 +262,7 @@ const translations = {
       ["流程自动化", "管理报告", "KPI 追踪", "运营报告", "流程改进", "跨部门协作"],
     ],
     educationKicker: "教育经历",
-    educationTitle: "扎实的商业分析基础与优秀的学术表现。",
+    educationTitle: "扎实的商业分析基础与优秀的学术表现",
     education: [
       {
         date: "2024年8月 - 2025年12月",
@@ -280,7 +280,7 @@ const translations = {
       },
     ],
     contactKicker: "联系",
-    contactTitle: "欢迎联系。",
+    contactTitle: "欢迎联系",
     contactBody: "我关注财务、分析与业务运营结合的机会，希望通过更好的报告、预测和业务洞察支持决策。",
     linkedinProfile: "领英主页",
     contactLabelEmail: "邮箱",
